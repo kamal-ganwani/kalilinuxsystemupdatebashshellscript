@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#for system update and upgrade
+echo"systme update"
+set -x
+apt update
+set +x
+echo" "
+echo"update done"
+echo"Now Uprading the system"
+echo" "
+set -x
+apt upgrade
+set +x
+echo "upgrad done"
+echo"Finish..."
